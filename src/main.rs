@@ -4,8 +4,6 @@ use std::process;
 use std::{net::TcpStream, time::SystemTime};
 use x509_parser::prelude::*;
 
-//TODO add progress with indicatif
-
 /// Retrieve the expiration date of an X509 certificate from a host's certificate handshake.
 /// Direct network connectivity to the host is required.
 /// 
