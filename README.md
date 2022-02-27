@@ -1,14 +1,5 @@
 # certificate-expiration-retriever
-Retrieve the expiration date of an X509 certificate from a host's certificate handshake
-Have you ever had a certificate expire without warning?  This tool will simplify keeping up with 
-when your certs expire.  There are many other ways to do this, you could use OpenSSL directly, check
-the cert in the browser, keep good records and, the list goes on.  Or you could use this built
-for for purpose tool to check the expiration date.  This version outputs single line records in a format
-that should be easy to process further with your favorite test processing tools.  the `|` is the field 
-delimiter.  Use your imagination and create monitoring with the tool as is or join in and add more outputs
-and options.  Remember the goal of the tool is to get the certificate information and report on it.  Adding
-more output formats or the ability to read the host names from a file would fall into that goal.  
-However, adding tight integration of moniroing system into the tool would not.
+Retrieve the expiration date of an [X.509](https://en.wikipedia.org/wiki/X.509) certificate from a host's certificate handshake.  Have you ever had a certificate expire without warning?  Me neither.  This tool will asist you in keeping up with your certs expiriy dates.  There are many other ways to do this, you could use OpenSSL directly, check the cert in the browser, keep good records and, the list goes on.  Or, you could use this built for for purpose tool to check the expiration date from the horses mouth.  This version outputs single line records in a format that can be easily processed further with your favorite test processing tools.  The `|` character is the field delimiter.  Use your imagination and create monitoring with the tool as is or join in and add more outputs and options.  Remember, the goal of the tool is to get the certificate information and report on it.  Adding more output formats or the ability to read the host names from a file align with that goal.  However, adding tight integration of moniroing system into the tool would not.
 
 ```
 certificate-expiration-retriever 1.0.0
